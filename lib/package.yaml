@@ -1,0 +1,11 @@
+include: defaults.yaml
+
+formatter:
+  page_width: 80
+
+linter:
+  rules:
+    - depend_on_referenced_packages
+    - diagnostic_describe_all_properties
+    - lines_longer_than_80_chars
+    - public_member_api_docs

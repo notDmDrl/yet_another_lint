@@ -1,0 +1,73 @@
+include: all_rules.yaml
+
+analyzer:
+  # https://dart.dev/tools/analysis#enabling-additional-type-checks
+  language:
+    strict-casts: true
+    strict-inference: true
+    strict-raw-types: true
+
+  errors:
+    collection_methods_unrelated_type: warning
+    missing_required_param: error
+    missing_return: error
+    record_literal_one_positional_no_trailing_comma: error
+    unrelated_type_equality_checks: warning
+    parameter_assignments: warning
+
+formatter:
+  page_width: 120
+
+linter:
+  rules:
+    # Conflicts with the convention used by Flutter, which puts `super.key` first.
+    - always_put_required_named_parameters_first: false
+
+    # Conflicts with a lot much more useful rules.
+    - always_specify_types: false
+
+    # Conflicts with `prefer_relative_imports`.
+    - always_use_package_imports: false
+
+    # Prefer explicitly specifying `dynamic` when applicable.
+    - avoid_annotating_with_dynamic: false
+
+    # Is a bit too strict, having only static member classes is sometimes useful.
+    - avoid_classes_with_only_static_members: false
+
+    # With bigger projects will result in an overcrowding of `pubspec.yaml`. However, it is enabled
+    # for `package.yaml` as there it does make sense to have.
+    - depend_on_referenced_packages: false
+
+    # Is unnecessary for the apps. However, it is enabled for `package.yaml` as there it does make
+    # sense to have.
+    - diagnostic_describe_all_properties: false
+
+    # Too verbose with little to none benefit.
+    - flutter_style_todos: false
+
+    # Conflicts with the `page_width` which is set to 120 characters. Is enabled for `package.yaml`
+    # since pub.dev penalizes package's score otherwise.
+    - lines_longer_than_80_chars: false
+
+    # Conflicts with `specify_nonobvious_local_variable_types`.
+    - omit_local_variable_types: false
+
+    # Style.
+    - prefer_double_quotes: false
+
+    # Too verbose, conflicts with `avoid_final_parameters`.
+    - prefer_final_parameters: false
+
+    # Apparently has worse performance than normal for loops.
+    - prefer_foreach: false
+
+    # Is unnecessary for the apps. However, it is enabled for `package.yaml` as there it does make
+    # sense to have.
+    - public_member_api_docs: false
+
+    # Just no. -_-
+    - sort_pub_dependencies: false
+
+    # Conflicts with `prefer_final_locals`.
+    - unnecessary_final: false
