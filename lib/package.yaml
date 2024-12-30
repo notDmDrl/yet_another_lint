@@ -8,3 +8,4 @@ linter:
     - depend_on_referenced_packages
     - lines_longer_than_80_chars
     - public_member_api_docs
+    - type_annotate_public_apis

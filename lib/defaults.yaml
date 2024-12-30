@@ -38,8 +38,7 @@ linter:
     # for `package.yaml` as there it does make sense to have.
     - depend_on_referenced_packages: false
 
-    # Is unnecessary for the apps. However, it is enabled for `package.yaml` as there it does make
-    # sense to have.
+    # Is not mandatory, can be enabled manually if needed.
     - diagnostic_describe_all_properties: false
 
     # Too verbose with little to none benefit.
@@ -67,6 +66,10 @@ linter:
 
     # Just no. -_-
     - sort_pub_dependencies: false
+
+    # Is unnecessary for the apps. However, it is enabled for `package.yaml` as there it does make
+    # sense to have.
+    - type_annotate_public_apis: false
 
     # Conflicts with `prefer_final_locals`.
     - unnecessary_final: false
@@ -230,7 +233,6 @@ linter:
     - test_types_in_equals
     - throw_in_finally
     - tighten_type_of_initializing_formals
-    - type_annotate_public_apis
     - type_init_formals
     - type_literal_in_constant_pattern
     - unawaited_futures

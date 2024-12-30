@@ -8,7 +8,7 @@ It's incredibly strict, with only around 10 to 15 rules disabled out of 220, dep
 `yet_another_lint` provides 2 different sets of rules:
 
 -   `defaults` - strict production-ready rule set. Uses 120 chars page width.
--   `package` - based on the `defaults` rule set with 3 additional rules, that make sense for package development, enabled. Uses 80 chars page width.
+-   `package` - based on the `defaults` rule set with 4 additional rules, that make sense for package development, enabled. Uses 80 chars page width.
 
 > [!IMPORTANT]  
 > The package's minimum Dart version is set to the version used by the latest Flutter Beta version.
