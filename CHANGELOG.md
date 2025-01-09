@@ -4,6 +4,24 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Common Changelog](https://common-changelog.org/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0-rc.1.html).
 
+## 1.0.3
+
+##### 2025-01-09
+
+### Changed
+
+- Disable `one_member_abstracts` rule for `defaults.yaml` and `package.yaml` configs.
+- Enable `unnecessary_underscores` and `unnecessary_async` rules for `defaults.yaml` and `package.yaml` configs.
+
+## 1.0.2
+
+##### 2024-12-30
+
+### Changed
+
+- Disable `type_annotate_public_apis` rule for `defaults.yaml` config.
+- Enable `type_annotate_public_apis` rule for `package.yaml` config.
+
 ## 1.0.1
 
 ##### 2024-12-20

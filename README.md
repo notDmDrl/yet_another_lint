@@ -3,7 +3,7 @@
 [![Common Changelog](https://common-changelog.org/badge.svg)](https://common-changelog.org)
 
 _Yet another_ lint rules package with a set of Dart and Flutter linter rules and analyzer setup.
-It's incredibly strict, with only around 10 to 15 rules disabled out of 220, depending on the chosen set.
+It's incredibly strict, with only around 10 to 15 rules disabled out of +-230, depending on the chosen set.
 
 `yet_another_lint` provides 2 different sets of rules:
 
