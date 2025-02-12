@@ -4,6 +4,13 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Common Changelog](https://common-changelog.org/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0-rc.1.html).
 
+## 1.0.4
+
+### Changed
+
+- Disable `require_trailing_commas` rule for `defaults.yaml` and `package.yaml` configs.
+- Enable `unnecessary_ignore` rule for `defaults.yaml` and `package.yaml` configs.
+
 ## 1.0.3
 
 ##### 2025-01-09

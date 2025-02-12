@@ -77,6 +77,9 @@ linter:
     # Conflicts with `prefer_final_locals`.
     - unnecessary_final: false
 
+    # Conflicts with new Dart formatter.
+    - require_trailing_commas: false
+
     # All other rules
     - always_declare_return_types
     - always_put_control_body_on_new_line
@@ -221,7 +224,6 @@ linter:
     - prefer_void_to_null
     - provide_deprecation_message
     - recursive_getters
-    - require_trailing_commas
     - secure_pubspec_urls
     - sized_box_for_whitespace
     - sized_box_shrink_expand
@@ -246,6 +248,7 @@ linter:
     - unnecessary_const
     - unnecessary_constructor_name
     - unnecessary_getters_setters
+    - unnecessary_ignore
     - unnecessary_lambdas
     - unnecessary_late
     - unnecessary_library_directive
