@@ -2,6 +2,7 @@ include: package:yet_another_lint/defaults.yaml
 
 formatter:
   page_width: 80
+  trailing_commas: preserve
 
 linter:
   rules:
