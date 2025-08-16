@@ -1,5 +1,5 @@
 # Auto-generated options enabling all lints from https://github.com/dart-lang/sdk/blob/master/pkg/linter/example/all.yaml
-# Last check: 18/06/2025 (DD/MM/YYYY)
+# Last check: 16/08/2025 (DD/MM/YYYY)
 linter:
   rules:
     - always_declare_return_types
