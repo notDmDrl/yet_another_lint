@@ -1,5 +1,5 @@
 # Auto-generated options enabling all lints from https://github.com/dart-lang/sdk/blob/master/pkg/linter/example/all.yaml
-# Last check: 16/08/2025 (DD/MM/YYYY)
+# Last check: 22/10/2025 (DD/MM/YYYY)
 linter:
   rules:
     - always_declare_return_types
@@ -160,6 +160,7 @@ linter:
     - provide_deprecation_message
     - public_member_api_docs
     - recursive_getters
+    - remove_deprecations_in_breaking_versions
     - require_trailing_commas
     - secure_pubspec_urls
     - sized_box_for_whitespace

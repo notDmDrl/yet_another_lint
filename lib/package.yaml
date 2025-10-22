@@ -6,6 +6,9 @@ formatter:
 
 linter:
   rules:
+    #  Conflicts with `type_annotate_public_apis`.
+    - omit_obvious_property_types: false
+
     - depend_on_referenced_packages
     - lines_longer_than_80_chars
     - public_member_api_docs

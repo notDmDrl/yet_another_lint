@@ -4,6 +4,15 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Common Changelog](https://common-changelog.org/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0-rc.1.html).
 
+## 1.0.8
+
+##### 2025-10-22
+
+### Changed
+
+- Enable `remove_deprecations_in_breaking_versions` rule for `defaults.yaml` and `package.yaml` configs.
+- Disable `omit_obvious_property_types` rule for `package.yaml` config.
+
 ## 1.0.7
 
 ##### 2025-05-23
