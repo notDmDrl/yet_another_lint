@@ -1,5 +1,5 @@
 # Auto-generated options enabling all lints from https://github.com/dart-lang/sdk/blob/main/pkg/linter/example/all.yaml
-# Last check: 09/12/2025 (DD/MM/YYYY)
+# Last check: 17/01/2026 (DD/MM/YYYY)
 linter:
   rules:
     - always_declare_return_types
@@ -27,7 +27,6 @@ linter:
     - avoid_init_to_null
     - avoid_js_rounded_ints
     - avoid_multiple_declarations_per_line
-    - avoid_null_checks_in_equality_operators
     - avoid_positional_boolean_parameters
     - avoid_print
     - avoid_private_typedef_functions
@@ -162,6 +161,7 @@ linter:
     - remove_deprecations_in_breaking_versions
     - require_trailing_commas
     - secure_pubspec_urls
+    - simplify_variable_pattern
     - sized_box_for_whitespace
     - sized_box_shrink_expand
     - slash_for_doc_comments

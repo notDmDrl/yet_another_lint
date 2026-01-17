@@ -2,7 +2,7 @@ name: yet_another_lint
 description: Highly opinionated set of Dart / Flutter linter rules
 homepage: https://github.com/notDmDrl/yet_another_lint
 repository: https://github.com/notDmDrl/yet_another_lint
-version: 1.0.9
+version: 1.0.10
 
 publish_to: none
 
@@ -11,4 +11,4 @@ topics:
   - lints
 
 environment:
-  sdk: ^3.11.0-200.1.beta
+  sdk: ^3.11.0-296.3.beta

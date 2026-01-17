@@ -4,6 +4,18 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Common Changelog](https://common-changelog.org/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0-rc.1.html).
 
+## 1.0.10
+
+##### 2026-01-17
+
+### Changed
+
+- Enable `simplify_variable_pattern` rule for `defaults.yaml` and `package.yaml` configs.
+
+### Removed
+
+- Remove `avoid_null_checks_in_equality_operators` as it has been deprecated.
+
 ## 1.0.9
 
 ##### 2025-12-09
