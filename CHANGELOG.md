@@ -4,6 +4,15 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Common Changelog](https://common-changelog.org/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0-rc.1.html).
 
+## 1.0.11
+
+##### 2026-04-11
+
+### Changed
+
+- Enable `simple_directive_paths` rule for `defaults.yaml` and `package.yaml` configs.
+- Enable `var_with_no_type_annotation` rule for `defaults.yaml` and `package.yaml` configs.
+
 ## 1.0.10
 
 ##### 2026-01-17
