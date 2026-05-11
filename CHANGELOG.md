@@ -4,6 +4,18 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Common Changelog](https://common-changelog.org/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0-rc.1.html).
 
+## 1.0.12
+
+##### 2026-05-11
+
+### Changed
+
+- Enable `empty_container_bodies` rule for `defaults.yaml` and `package.yaml` configs.
+- Enable `unnecessary_const_in_enum_constructor` rule for `defaults.yaml` and `package.yaml` configs.
+- Enable `unnecessary_type_name_in_constructor` rule for `defaults.yaml` and `package.yaml` configs.
+- Enable `use_declaring_parameters` rule for `defaults.yaml` and `package.yaml` configs.
+- Enable `use_primary_constructors` rule for `defaults.yaml` and `package.yaml` configs.
+
 ## 1.0.11
 
 ##### 2026-04-11
