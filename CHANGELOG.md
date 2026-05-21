@@ -4,6 +4,20 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Common Changelog](https://common-changelog.org/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0-rc.1.html).
 
+## 1.0.13
+
+##### 2026-05-22
+
+### Changed
+
+- Enable `erase_dart_type_extension_types` rule for `defaults.yaml` and `package.yaml` configs.
+- Enable `initialize_in_field_declaration` rule for `defaults.yaml` and `package.yaml` configs.
+
+### Added
+
+- Add `tool/pull_all.dart` script for updating `all_rules.yaml`.
+  - See [Dart SDK change](https://github.com/dart-lang/sdk/commit/17a1b9999108c9cfb2c5b0cd227d3392acc8adeb)
+
 ## 1.0.12
 
 ##### 2026-05-11
