@@ -3,7 +3,7 @@
 [![Common Changelog](https://common-changelog.org/badge.svg)](https://common-changelog.org)
 
 _Yet another_ lint rules package with a set of Dart and Flutter linter rules and analyzer setup.
-It's incredibly strict, with only around 10 to 20 rules disabled out of +-230, depending on the chosen set.
+It's incredibly strict, with only around 10 to 20 rules disabled out of +-240, depending on the chosen set.
 
 `yet_another_lint` provides 2 different sets of rules:
 
@@ -11,9 +11,9 @@ It's incredibly strict, with only around 10 to 20 rules disabled out of +-230, d
 -   `package` - based on the `defaults` rule set with 4 additional rules, that make sense for package development, enabled. Uses 80 chars page width.
 
 > [!IMPORTANT]  
-> The package's minimum Dart version is set to the version used by the latest Flutter Beta version.
+> The package's minimum Dart version is set to the version used by the latest Flutter Main version.
 >
-> For version **1.0.11** minimum Dart version is **3.12.0-210.2.beta**
+> For version **1.0.13** minimum Dart version is **3.13.0-0**
 
 ## Enabling the lints
 
