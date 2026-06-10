@@ -61,7 +61,9 @@ Future<Iterable<String>> _pullUrl(Uri uri) async {
       () => jsonDecode(body) as Map<String, dynamic>,
     );
 
-    return json.keys
+    final entries = json['entries'] as Map<String, dynamic>;
+
+    return entries.keys
         .map((e) => e.replaceAll('.dart', ''))
         // needs renaming
         .map((e) => e.replaceAll('remove_deprecations_in_breaking_version', 'remove_deprecations_in_breaking_versions'))

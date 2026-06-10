@@ -4,6 +4,17 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Common Changelog](https://common-changelog.org/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0-rc.1.html).
 
+## 1.0.14
+
+##### 2026-06-10
+
+### Changed
+
+- Enable `async_return_with_no_await` rule for `defaults.yaml` and `package.yaml` configs.
+- Enable `no_dynamic_casts` rule for `defaults.yaml` and `package.yaml` configs.
+- Enable `no_raw_types` rule for `defaults.yaml` and `package.yaml` configs.
+- Enable `unnecessary_primary_constructor_body` rule for `defaults.yaml` and `package.yaml` configs.
+
 ## 1.0.13
 
 ##### 2026-05-22

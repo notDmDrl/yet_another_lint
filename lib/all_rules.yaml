@@ -1,5 +1,5 @@
 # Auto-generated options enabling all lints from https://github.com/dart-lang/sdk/tree-commit-info/main/pkg/linter/lib/src/rules and https://github.com/dart-lang/sdk/tree-commit-info/main/pkg/linter/lib/src/rules/pub
-# Last check: 22/05/2026 (DD/MM/YYYY)
+# Last check: 10/06/2026 (DD/MM/YYYY)
 linter:
   rules:
     - always_declare_return_types
@@ -9,6 +9,7 @@ linter:
     - always_use_package_imports
     - annotate_overrides
     - annotate_redeclares
+    - async_return_with_no_await
     - avoid_annotating_with_dynamic
     - avoid_bool_literals_in_conditional_expressions
     - avoid_catches_without_on_clauses
@@ -100,10 +101,12 @@ linter:
     - no_adjacent_strings_in_list
     - no_default_cases
     - no_duplicate_case_values
+    - no_dynamic_casts
     - no_leading_underscores_for_library_prefixes
     - no_leading_underscores_for_local_identifiers
     - no_literal_bool_comparisons
     - no_logic_in_create_state
+    - no_raw_types
     - no_runtimeType_toString
     - no_self_assignments
     - no_wildcard_variable_uses
@@ -207,6 +210,7 @@ linter:
     - unnecessary_nullable_for_final_variable_declarations
     - unnecessary_overrides
     - unnecessary_parenthesis
+    - unnecessary_primary_constructor_body
     - unnecessary_raw_strings
     - unnecessary_statements
     - unnecessary_string_escapes
