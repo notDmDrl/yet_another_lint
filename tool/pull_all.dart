@@ -76,6 +76,7 @@ Future<Iterable<String>> _pullUrl(Uri uri) async {
             'always_require_non_null_named_parameters' ||
             'avoid_null_checks_in_equality_operators' ||
             'avoid_as' ||
+            'avoid_public_typedef_functions' ||
             'avoid_returning_null_for_future' ||
             'avoid_returning_null' ||
             'avoid_unstable_final_fields' ||
@@ -83,6 +84,7 @@ Future<Iterable<String>> _pullUrl(Uri uri) async {
             'invariant_booleans' ||
             'iterable_contains_unrelated_type' ||
             'list_remove_unrelated_type' ||
+            'one_member_abstracts' ||
             'package_api_docs' ||
             'prefer_bool_in_asserts' ||
             'prefer_equal_for_default_values' ||

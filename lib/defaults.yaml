@@ -54,9 +54,6 @@ linter:
     # Conflicts with `specify_nonobvious_local_variable_types`.
     - omit_local_variable_types: false
 
-    # Making everything static can be really messy without some sort of "namespace" separation
-    - one_member_abstracts: false
-
     # Style.
     - prefer_double_quotes: false
 
