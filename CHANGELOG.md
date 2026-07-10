@@ -4,6 +4,16 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Common Changelog](https://common-changelog.org/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0-rc.1.html).
 
+## 1.0.16
+
+##### 2026-07-10
+
+### Changed
+
+- Remove `unnecessary_await_in_return` rule from `defaults.yaml` and `package.yaml` configs.
+- Enable `future_sync_value` rule for `defaults.yaml` and `package.yaml` configs.
+- Enable `migrate_design_widgets` rule for `defaults.yaml` and `package.yaml` configs.
+
 ## 1.0.15
 
 ##### 2026-06-11

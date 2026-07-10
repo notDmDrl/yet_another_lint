@@ -90,6 +90,7 @@ Future<Iterable<String>> _pullUrl(Uri uri) async {
             'prefer_equal_for_default_values' ||
             'prefer_final_parameters' ||
             'super_goes_last' ||
+            'unnecessary_await_in_return' ||
             'unsafe_html' ||
             'use_if_null_to_convert_nulls_to_bools' => false,
             _ => true,

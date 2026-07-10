@@ -13,7 +13,7 @@ It's incredibly strict, with only around 10 to 20 rules disabled out of +-240, d
 > [!IMPORTANT]  
 > The package's minimum Dart version is set to the version used by the latest Flutter Main version.
 >
-> For version **1.0.13** minimum Dart version is **3.13.0-0**
+> For version **1.0.16** minimum Dart version is **3.13.0-0**
 
 ## Enabling the lints
 

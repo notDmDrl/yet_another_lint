@@ -148,6 +148,7 @@ linter:
     - erase_dart_type_extension_types
     - exhaustive_cases
     - file_names
+    - future_sync_value
     - hash_and_equals
     - implementation_imports
     - implicit_call_tearoffs
@@ -163,6 +164,7 @@ linter:
     - library_private_types_in_public_api
     - literal_only_boolean_expressions
     - matching_super_parameters
+    - migrate_design_widgets
     - missing_code_block_language_in_doc_comment
     - missing_whitespace_between_adjacent_strings
     - no_adjacent_strings_in_list
@@ -248,7 +250,6 @@ linter:
     - unawaited_futures
     - unintended_html_in_doc_comment
     - unnecessary_async
-    - unnecessary_await_in_return
     - unnecessary_brace_in_string_interps
     - unnecessary_breaks
     - unnecessary_const
