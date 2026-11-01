@@ -55,7 +55,7 @@ Future<Iterable<String>> _pullUrl(Uri uri) async {
   try {
     final http.Response(:String body) = await http.get(
       uri,
-      headers: {'Accept': 'application/json'},
+      headers: const {'Accept': 'application/json'},
     );
     final Map<String, dynamic> json = await Isolate.run(
       () => jsonDecode(body) as Map<String, dynamic>,
@@ -72,6 +72,7 @@ Future<Iterable<String>> _pullUrl(Uri uri) async {
             'analyzer_element_model_tracking' ||
             'analyzer_public_api' ||
             'pub' ||
+            'analyzer_v1_ast_use' ||
             // deprecated
             'always_require_non_null_named_parameters' ||
             'avoid_null_checks_in_equality_operators' ||
